@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(217, 247, 247);
+}
+h2{
+    color: rgb(40, 124, 124);
+}
+.div1{
+    margin-left: 40%;
+    color: rgb(40, 124, 124);
+    z-index: 0;
+    margin-top: 7%;
+
+}
+.tab{
+    margin-left: 35%;
+}
+.head{
+    display: block;
+    text-align: center;
+    position: fixed;
+   top: 0px;
+    width: 100%;
+    z-index: 0;
+    color: rgb(46, 46, 110);
+    background-color: rgb(180, 173, 173);
+}
+.check{
+    margin-left: 8.7%;
+}
