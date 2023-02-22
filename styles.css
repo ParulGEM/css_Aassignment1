@@ -4,9 +4,16 @@ body{
 h2{
     color: rgb(40, 124, 124);
 }
+hr{
+    border-top: 2px solid rgb(9, 34, 54);
+}
+table{
+    border: 1px solid black;
+  }
+  
 .div1{
     margin-left: 40%;
-    color: rgb(40, 124, 124);
+    color: rgb(14, 83, 83);
     z-index: 0;
     margin-top: 7%;
 
@@ -27,3 +34,62 @@ h2{
 .check{
     margin-left: 8.7%;
 }
+.hr1
+{
+    border-top: 4px dashed rgb(185, 138, 138);
+}
+.sq1{
+    float: none;
+}
+.sq2{
+    float: left;
+}
+sq3{
+    float: right;
+}.sq4{
+    float: inline-start;
+}.sq5{
+    float: inline-end;
+}
+.h{
+    color: rgb(177, 133, 113);
+}
+.s1{
+    display: inline;
+    color: rgb(211, 66, 30);
+}
+span{
+    display: block;
+    color: rgb(211, 66, 30);
+}
+
+.collapse {
+    visibility: collapse;
+  }
+.static {
+    position: static;
+    border: 3px solid #fda32c;
+  }
+  .relative {
+    position: relative;
+    left: 30px;
+
+    border: 3px solid #fda32c;
+  }.fixed {
+    bottom: 0;
+  right: 0;
+  width: 300px;
+    position: fixed;
+    border: 3px solid #fda32c;
+  }.absolute {
+    position: absolute;
+    top: 60%px;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #fda32c;
+  }.sticky {
+    position: sticky;
+    top: 0;
+    border: 3px solid #fda32c;
+  }
